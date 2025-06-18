@@ -27,7 +27,7 @@ const NavBar = () => {
 
     const [isOpen, setisOpen] = useState(false)
   return (
-    <div className='fixed inset-x-0 z-20  w-full bg-primary/10 backdrop-blur-lg'>
+    <div className='fixed inset-x-0 z-60  w-full bg-primary/10 backdrop-blur-lg'>
         <div className='mx-auto c-space max-w-7xl'>
             <div className='flex items-center justify-between py-2 sm:py-0'>
                  <a href='/' className='text-xl font-bold transition-colors text-neutral-400 hover:text-white'>Jefrin</a>
