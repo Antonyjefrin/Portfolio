@@ -75,17 +75,21 @@ const skills = [
           </div>
 
 <figure
-  className="absolute right-0 top-1/2 translate-x-[40%] -translate-y-[60%] w-[1000px] h-[1000px] z-0"
+  className="absolute right-0 top-1/2 translate-x-[40%] -translate-y-[60%]  w-[500px] h-[500px] z-0" 
   
 >
-  <Canvas 
-    camera={{ position: [1, 1, 3] }}
-  
+  <div
+    className="lg:w-[1000px] lg:h-[1000px] 
+               md:w-[600px] md:h-[600px] 
+               sm:w-[400px] sm:h-[400px] 
+               w-[100px] h-[100px]"
   >
-    <ambientLight intensity={1} />
-    <Globe scale={[1, 1, 1]} position={[0, -1.2, 0]} />
-     <OrbitControls enableZoom={false} />
-  </Canvas>
+    <Canvas camera={{ position: [1, 1, 3] }}>
+      <ambientLight intensity={1} />
+      <Globe scale={[1, 1, 1]} position={[0, -1.2, 0]} />
+      <OrbitControls enableZoom={false} />
+    </Canvas>
+  </div>
 </figure>
 
 

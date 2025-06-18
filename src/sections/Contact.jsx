@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
           </div>
           <div className="mt-10">
             <label className="field-label" htmlFor="message">
-              FullName
+              Message
             </label>
             <textarea
               type="message"
